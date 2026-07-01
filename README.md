@@ -32,6 +32,31 @@ O miniguia foi alimentado com materiais selecionados, abrangendo artigos técnic
 
 ---
 
+## 📝 Testes de prompts e problemas encontrados
+
+### Conteúdos gerados na língua errada
+Inicialmente os conteúdos gerados pelo NotebookLM estavam em inglês, este problema foi identificado ao utilizar a ferramenta de **Estúdio** para gerar mapas mentais e apresentações em slides.
+
+### Solução
+
+Foi inserido uma nova fonte de texto com um prompt para que todo conteúdo seja gerado em Português do Brasil.
+
+### Conteúdo muito técnico e de alta complexidade
+
+O conteúdo gerado pareceu estar difícil de entender, principalmente para iniciantes no assunto com nenhum ou quase nenhum conhecimento sobre Design Patterns.
+
+### Solução
+
+Junto da fonte de texto, outro prompt foi inserido para que os conteúdos mantenham um nível resumido e de fácil entendimento do assunto abordado, facilitando a compreensão de programadores iniciantes.
+
+---
+
+## ➡️ Link do NotebookLM
+
+* Acesse o miniguia criado [clicando aqui](https://notebooklm.google.com/notebook/aed18cd8-3a0c-40ed-bcaa-88160e26e653)
+
+---
+
 ## 🏆 Resultados Obtidos
 
 A partir do processamento e curadoria das fontes indicadas, obtivemos os seguintes resultados:
